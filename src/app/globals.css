@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.bghome1-elmt1 {
+  position: absolute;
+  rotate: 110deg;
+  right: -65%;
+}
+
+.bghome1-elmt2 {
+  position: absolute;
+  rotate: 110deg;
+  right: -63%;
+}
+
+@media only screen and (max-width: 767px)  {
+  .bghome1-elmt1 {
+    rotate: 41deg;
+    right: -48%;
+  }
+
+  .bghome1-elmt2 {
+    rotate: 41deg;
+    right: -40%;
+  }
+}
