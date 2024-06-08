@@ -6,11 +6,10 @@ import { useState } from "react";
 
 const page = () => {
   const [display, setDisplay] = useState("");
-  const [result, setResult] = useState("")
 
   return (
-    <main className="w-screen h-screen overflow-hidden flex justify-center items-center p-4">
-      <div className="bg-side-first lg:w-2/6 md:w-1/2 w-full md:h-4/5 h-5/6 mt-4 p-4 rounded-lg">
+    <main className="w-full h-screen overflow-x-hidden flex justify-center items-center p-4">
+      <section className="bg-side-first lg:w-2/6 md:w-7/12 w-full lg:h-4/5 md:h-3/5 h-4/6 mt-4 p-4 rounded-lg shadow-[15px_20px_10px_2px_rgb(0,0,0,0.4)]">
         <div className="bg-main-fourth w-full h-16 pl-2 flex items-center rounded-lg border-2 border-main-third text-main-third font-bold text-lg">
           {display}
         </div>
@@ -37,10 +36,9 @@ const page = () => {
                         return "error"
                     }
                 };
-                setResult(asigment);
                 setDisplay(asigment);
               }}
-              className="col-span-3 bg-side-second rounded-full text-xl font-bold border-2 border-main-third hover:bg-main-third transition-all duration-150"
+              className="col-span-3 bg-side-second rounded-full text-xl font-bold border-2 border-main-third hover:text-main-fourth hover:bg-main-third transition-all duration-150"
             >
               =
             </button>
@@ -50,7 +48,7 @@ const page = () => {
               onClick={() => {
                 setDisplay("");
               }}
-              className="bg-main-secondery rounded-full text-xl font-bold border-2 border-main-third hover:bg-main-third transition-all duration-150"
+              className="bg-main-secondery rounded-full text-xl font-bold border-2 border-main-third hover:text-main-fourth hover:bg-main-third transition-all duration-150"
             >
               c
             </button>
@@ -60,7 +58,7 @@ const page = () => {
             <RndBtnDrkRed inner="/" setVariable={setDisplay} />
           </div>
         </div>
-      </div>
+      </section>
     </main>
   );
 };

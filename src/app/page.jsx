@@ -59,9 +59,7 @@ const Page = () => {
           </div>
         </div>
       </section>
-      <footer>
-        
-      </footer>
+      
     </main>
   );
 };
