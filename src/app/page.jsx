@@ -51,12 +51,9 @@ const Page = () => {
           <Card
             title="calculator"
             description="Tempat anda untuk mendapatkan bantuan saat menghitung hal dasar."
+            href="/calculator"
           />
-          <Card />
-          <Card />
-          <div className="">
-            <Card />
-          </div>
+          <Card title="TahuAI" description="AI yang dapat membantu menjawap pertanyaan anda." href="/ai"/>
         </div>
       </section>
       

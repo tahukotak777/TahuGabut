@@ -9,7 +9,7 @@ const page = () => {
 
   return (
     <main className="w-full h-screen overflow-x-hidden flex justify-center items-center p-4">
-      <section className="bg-side-first lg:w-2/6 md:w-7/12 w-full lg:h-4/5 md:h-3/5 h-4/6 mt-4 p-4 rounded-lg shadow-[15px_20px_10px_2px_rgb(0,0,0,0.4)]">
+      <section className="border-2 lg:w-2/6 md:w-7/12 w-full lg:h-4/5 md:h-3/5 h-4/6 mt-4 p-4 rounded-lg shadow-[15px_20px_10px_2px_rgb(0,0,0,0.4)]">
         <div className="bg-main-fourth w-full h-16 pl-2 flex items-center rounded-lg border-2 border-main-third text-main-third font-bold text-lg">
           {display}
         </div>
