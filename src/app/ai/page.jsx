@@ -13,8 +13,8 @@ const Page = () => {
     content.value = ""
   };
   return (
-    <main className="w-full min-h-screen flex justify-center items-center py-12 mt-12">
-      <div className="min-h-[80vh] w-[90vh] md:w-[80vh] p-4 border-2 rounded-lg shadow-[20px_20px_10px_0px_rgb(0,0,0,0.5)] flex flex-col items-center max-w-xl mx-auto">
+    <main className="w-full min-h-screen flex justify-center items-center p-4 py-12 mt-8">
+      <div className="min-h-[80vh] w-[80vh] p-4 border-2 rounded-lg shadow-[20px_20px_10px_0px_rgb(0,0,0,0.5)] flex flex-col items-center max-w-xl mx-auto">
         <h1 className="text-2xl font-bold top-">TahuAI</h1>
         <input
           type="text"
