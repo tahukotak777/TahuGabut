@@ -9,8 +9,8 @@ const BgHome1 = () => {
         height={1000}
         className="w-full h-full absolute opacity-15"
       />
-      <div className="bg-main-secondery size-1.5x bghome1-elmt2"></div>
-      <div className="bg-main-primary size-1.5x bghome1-elmt1"></div>
+      <div className="bg-main-secondery size-1.5x absolute lg:rotate-[110deg] lg:right-[-63%] md:top-[10%] md:right-[-80%] rotate-[41deg] right-[-62%]"></div>
+      <div className="bg-main-primary size-1.5x absolute lg:rotate-[110deg] lg:right-[-65%] md:top-[10%] md:right-[-85%] rotate-[41deg] right-[-70%]"></div>
     </div>
   );
 };

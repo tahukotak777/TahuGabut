@@ -25,7 +25,7 @@ const Page = () => {
         <button
           type="button"
           onClick={() => handlerSubmit()}
-          className="bg-main-primary rounded-lg p-2 mt-4 w-full text-xl font-bold hover:bg-main-third hover:text-main-fourth transition-all duration-200"
+          className="border-2 bg-main-primary rounded-lg p-2 mt-4 w-full text-xl font-bold hover:bg-main-third hover:text-main-fourth hover:scale-105 transition-all duration-200"
         >
           kirim
         </button>
